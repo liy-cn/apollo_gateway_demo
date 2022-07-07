@@ -3,8 +3,8 @@ const { ApolloGateway } = require('@apollo/gateway');
 const {serializeQueryPlan} = require('@apollo/query-planner');
 const { ApolloServerPluginLandingPageGraphQLPlayground } = require('apollo-server-core')
 
-const demo01Host = process.env.DEMO01_HOST != null ? process.env.DEMO01_host : "localhost:8081";
-const demo02Host = process.env.DEMO02_HOST != null ? process.env.DEMO02_host : "localhost:8082";
+const demo01Host = process.env.DEMO01_HOST != null ? process.env.DEMO01_host : "localhost:8080";
+const demo02Host = process.env.DEMO02_HOST != null ? process.env.DEMO02_host : "localhost:8081";
 
 // Initialize an ApolloGateway instance and pass it an array of
 // your implementing service names and URLs
