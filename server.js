@@ -11,7 +11,7 @@ const demo02Host = process.env.DEMO02_HOST != null ? process.env.DEMO02_host : "
 const gateway = new ApolloGateway({
     serviceList: [
         { name: 'demo01', url: `http://${demo01Host}/graphql/` },
-        { name: 'demo02', url: `http://${demo02Host}/graphql/` },
+        { name: 'demo02', url: `http://${demo02Host}/graphql/` }
         //{ name: "accounts", url: "https://pw678w138q.sse.codesandbox.io/" }
         // Define additional services here
     ],
